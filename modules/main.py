@@ -106,7 +106,7 @@ async def start(bot, m: Message):
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="t.me/nltride")],
         ])
         
         await start_message.edit_text(
@@ -121,7 +121,7 @@ async def start(bot, m: Message):
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="t.me/nltride")],
         ])
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
@@ -139,7 +139,7 @@ async def back_to_main_menu(client, callback_query):
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="t.me/nltride")],
         ])
     
     await callback_query.message.edit_media(
@@ -768,7 +768,7 @@ async def y2t_button(client, callback_query):
   caption = f"**YouTube Commands:**\n\n◆/y2t - 🔪 YouTube Playlist → .txt Converter\n◆/ytm - 🎶 YouTube → .mp3 downloader\n\n<blockquote><b>◆YouTube → .mp3 downloader\n01. Send YouTube Playlist.txt file\n02. Send single or multiple YouTube links set\neg.\n`https://www.youtube.com/watch?v=xxxxxx\nhttps://www.youtube.com/watch?v=yyyyyy`</b></blockquote>"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://envs.sh/GVi.jpg",
+      media="https://radare.arzfun.com/api/tg/photo?id=AgACAgEAAxkBAAEIzsVovEX1pM0daSlJprWHWWKw6CH2LAACkLAxG4gs4EV4AAEChW841tUBAAMCAAN4AAM2BA",
       caption=caption
       ),
       reply_markup=keyboard
@@ -781,7 +781,7 @@ async def y2t_button(client, callback_query):
   caption = f"**HTML Commands:**\n\n◆/t2h - 🌐 .txt → .html Converter"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://envs.sh/GVI.jpg",
+      media="https://radare.arzfun.com/api/tg/photo?id=AgACAgEAAxkBAAEIzsVovEX1pM0daSlJprWHWWKw6CH2LAACkLAxG4gs4EV4AAEChW841tUBAAMCAAN4AAM2BA",
       caption=caption
       ),
       reply_markup=keyboard
